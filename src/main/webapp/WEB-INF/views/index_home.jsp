@@ -11,6 +11,8 @@
 </head>
 <body>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <div class="mainbody container-fluid">
     <div class="row">
         <div class="navbar-wrapper">
@@ -54,6 +56,7 @@
     <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>DevOps</b></h1>
   </div>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 <div class="container-fluid">
     <nav class="navbar navbar-custom navbar-static-top" role="navigation" style="background-color: #e3f2fd;">
         <div class="container-fluid">
@@ -84,16 +87,23 @@
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="${contextPath}/resources/Images/dev_img.jpeg" alt="Architecture" width="1500" height="800">
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 </header>
 <div>
 <blockquote><p>
      <h2 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Keep Learning ..</h2>
 <<<<<<< HEAD
+     <h3 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Learning is a Treasure that will follow it's Owner Everywhere..</h3>
+=======
+<<<<<<< HEAD
      <h3 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Learning is a Treasure that will follow it's Owner Everywhere..</h3> 
 =======
      <h3 align="center" style="font-family: Verdana,sans-serif;color:#1C3B47;">Learning is a Treasure that will follow it's Owner Everywhere..</h3>
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 </blockquote>
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
@@ -107,12 +117,17 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
 <<<<<<< HEAD
+        <img src="${contextPath}/resources/Images/technologies/Ansible_logo.png" alt="DevOps" style="width:150px;height:150px">
+      </div>
+=======
+<<<<<<< HEAD
         <img src="${contextPath}/resources/Images/technologies/Ansible_logo.png" alt="DevOps" style="width:150px;height:150px">      
       </div>      
 =======
         <img src="${contextPath}/resources/Images/technologies/Ansible_logo.png" alt="DevOps" style="width:150px;height:150px">
       </div>
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
@@ -140,10 +155,14 @@
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
 <<<<<<< HEAD
+        <img src="${contextPath}/resources/Images/technologies/puppet.jpg" alt="DevOps" style="width:200px;height:150px">
+=======
+<<<<<<< HEAD
         <img src="${contextPath}/resources/Images/technologies/puppet.jpg" alt="DevOps" style="width:150px;height:150px">
 =======
         <img src="${contextPath}/resources/Images/technologies/puppet.jpg" alt="DevOps" style="width:200px;height:150px">
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
       </div>
     </div>
     <div class="w3-col l3 m6 w3-margin-bottom">
@@ -162,6 +181,8 @@
   <div class="container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" align="center">ABOUT</h3>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
     <div class="w3-content" style="max-width:700px">
 	    <p style="text-align:justify;">VisualPath is an IT Educational Institute.Established in 2001,and Institute offers world class quality of education and wide range of courses.VisualPath Institute has a dedicated placement team to help students get job placement in various IT job roles with major companies.
 	    </p>
@@ -177,6 +198,7 @@
     <p>Lets get in touch and talk about your and our next project.</p>
     <form action="/action_page.php" target="_blank">
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     <div class="w3-content" style="max-width:864px">
 	     <p style="text-align:justify;">
                     HKH Infotech is a dynamic software company dedicated to delivering innovative technology solutions. Founded with a mission to leverage cutting-edge technology and unparalleled expertise, we specialize in creating high-quality software solutions that drive business success.
@@ -203,7 +225,10 @@
     <div class="forms" id="contact-form">
     <p>Lets get in touch and talk about your and our next project.</p>
     <form action="/action_page.php" id="action" target="_blank">
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
       <input class="w3-input" type="text" placeholder="Name" required name="Name">
       <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
@@ -212,6 +237,8 @@
         <i class="fa fa-paper-plane"></i> SEND MESSAGE
       </button>
     </form>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
   </div>
    
@@ -224,13 +251,17 @@
   <p style="color:#FFFFFF ">Copyright @2017 <a href="#"  target="_blank" class="w3-hover-text-green"> visualpathit.com</a></p>
 </footer>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     </div>
   </div>
 
 <!-- End page content -->
 
 
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 
 

@@ -1,11 +1,17 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <<<<<<< HEAD
+<%@ page import="org.springframework.security.core.context.SecurityContextHolder" %>
+<%@ page import="org.springframework.security.core.Authentication" %>
+
+=======
+<<<<<<< HEAD
 =======
 <%@ page import="org.springframework.security.core.context.SecurityContextHolder" %>
 <%@ page import="org.springframework.security.core.Authentication" %>
 
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 <c:set var="contextPath" value="${pageContext.request.contextPath}"/>
 
@@ -24,6 +30,8 @@
     <div class="row">
         <div class="navbar-wrapper">
             <div class="container-fluid">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
                 <div class="navbar navbar-custom navbar-static-top" role="navigation">
                     <div class="container-fluid">
@@ -55,6 +63,7 @@
                                     </span>
                                     <b class="caret"></b></a>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                 <nav class="navbar navbar-custom navbar-static-top" role="navigation">
                     <div class="container-fluid">
                         <div class="navbar-header">
@@ -94,7 +103,10 @@
                                         </span>
                                         <b class="caret"></b>
                                     </a>
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                     <ul class="dropdown-menu">
                                         <li>
                                             <div class="navbar-content">
@@ -102,6 +114,8 @@
                                                     <div class="col-md-5">
                                                         <img src="${contextPath}/resources/Images/user/user.png" alt="Alternate Text" class="img-responsive" width="120px" height="120px" />
                                                         <p class="text-center small">
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
                                                             <a href="${contextPath}/upload">Change Photo</a></p>
                                                     </div>
@@ -113,6 +127,7 @@
                                                         </div>
                                                         <a href="${contextPath}/user/${pageContext.request.userPrincipal.name}" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> UpdateProfile </a>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                                             <a href="${contextPath}/upload">Change Photo</a>
                                                         </p>
                                                     </div>
@@ -123,13 +138,18 @@
                                                         </p>
                                                         <div class="divider"></div>
                                                         <a href="#" class="btn btn-default btn-xs"><i class="fa fa-user-o" aria-hidden="true"></i> Update Profile </a>
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                                         <a href="#" class="btn btn-default btn-xs"><i class="fa fa-address-card-o" aria-hidden="true"></i> Contacts</a>
                                                         <a href="#" class="btn btn-default btn-xs"><i class="fa fa-cogs" aria-hidden="true"></i> Settings</a>
                                                         <a href="#" class="btn btn-default btn-xs"><i class="fa fa-question-circle-o" aria-hidden="true"></i> Help!</a>
                                                     </div>
                                                 </div>
                                             </div>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
                                             <div class="navbar-footer">
                                                 <div class="navbar-footer-content">
@@ -144,6 +164,7 @@
                                                 </div>
                                             </div>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                            <div class="navbar-footer">
                                                <div class="navbar-footer-content">
                                                    <div class="row">
@@ -162,7 +183,10 @@
                                           </form>
 
 
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                         </li>
                                     </ul>
                                 </li>
@@ -170,10 +194,13 @@
                         </div>
                     </div>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
                 </div>
             </div>
         </div>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                 </nav>
             </div>
         </div>
@@ -181,7 +208,10 @@
 </div>
 
 
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
         <div style="padding-top:50px;">.</div>
         <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
             <div class="panel panel-default">
@@ -213,6 +243,11 @@
                 <div class="panel-body">
                     <span>
 <<<<<<< HEAD
+                        <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@hkhinfotech.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
+                        <div class="dropdown pull-right">
+
+=======
+<<<<<<< HEAD
                         <h1 class="panel-title pull-left" style="font-size:30px;">${pageContext.request.userPrincipal.name} &nbsp; <small>${pageContext.request.userPrincipal.name}@visualpath.co.in</small> <i class="fa fa-check text-success" aria-hidden="true" data-toggle="tooltip" data-placement="bottom" title=" sharing with you"></i></h1>
                         <div class="dropdown pull-right">
 						
@@ -221,6 +256,7 @@
                         <div class="dropdown pull-right">
 
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                             <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                 Friends
                                 <span class="caret"></span>
@@ -235,6 +271,8 @@
                         </div>
                     </span>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
                     <br><br>
                     <i class="fa fa-tags" aria-hidden="true"></i> <a href="#" class="tag">#DevOps</a> <a href="#" class="tag"> #Continuous Integration</a> <a href="#" class="tag"> #Continuous Delivery </a><a href="#" class="tag"> #Automation</a>
                      <c:if test="${pageContext.request.userPrincipal.name =='admin_vp'}">
@@ -248,6 +286,7 @@
 					 </c:if>
                     <br><br><hr>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
                       <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
@@ -274,7 +313,10 @@
 
 
 
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                     <span class="pull-left">
                         <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-files-o" aria-hidden="true"></i> Posts</a>
                         <a href="#" class="btn btn-link" style="text-decoration:none;"><i class="fa fa-fw fa-picture-o" aria-hidden="true"></i> Photos <span class="badge">42</span></a>
@@ -388,10 +430,14 @@
                                     <p>Our respondents identified the top three skill areas for DevOps staff:</p>
                                     <p>1) Coding or scripting 2)Process re-engineering 3)Communicating and collaborating with others Extensive knowledge of software build cycles 4)Experience deploying code 5)Experience in software architecture 6)Familiarity with application programming 7)Database management 8)System design.</p>
 <<<<<<< HEAD
+									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>
+=======
+<<<<<<< HEAD
 									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>                                
 =======
 									<p>These skills all point to a growing recognition that software is not written in the old way anymore. Where software used to be written from scratch in a highly complex and lengthy process, creating new products is now often a matter of choosing open source components and stitching them together with code. The complexity of todays software lies less in the authoring, and more in ensuring that the new software will work across a diverse set of operating systems and platforms right away. Likewise, testing and deployment are now done much more frequently. That is, they can be more frequent,if developers communicate early and regularly with the operations team, and if ops people bring their knowledge of the production environment to design of testing and staging environments.</p>
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
                                     <p>Demand for people with DevOps skills is growing rapidly because businesses get great results from DevOps. Organizations using DevOps practices are overwhelmingly high-functioning: They deploy code up to 30 times more frequently than their competitors.</p>
                                 </div>
                             </div>

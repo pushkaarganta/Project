@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
   <display-name>Account Registration Web Application</display-name>
   <context-param>
@@ -32,6 +34,7 @@
   </listener>
 </web-app>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 <web-app version="2.5" xmlns="https://java.sun.com/xml/ns/javaee"
          xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://java.sun.com/xml/ns/javaee https://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
@@ -66,4 +69,7 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 </web-app>
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a

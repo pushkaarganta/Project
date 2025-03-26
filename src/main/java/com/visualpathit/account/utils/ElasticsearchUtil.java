@@ -1,6 +1,8 @@
 package com.visualpathit.account.utils;
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 import java.net.InetSocketAddress;
 
 import org.elasticsearch.client.transport.TransportClient;
@@ -8,6 +10,7 @@ import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import java.io.IOException;
 import java.net.InetSocketAddress;
 
@@ -15,11 +18,16 @@ import org.apache.http.HttpHost;
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestClient;
 import org.elasticsearch.client.RestHighLevelClient;
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.visualpathit.account.beans.Components;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 @Service
 public class ElasticsearchUtil {
@@ -57,6 +65,7 @@ public class ElasticsearchUtil {
     	return client;
       }
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 @Service
 public class ElasticsearchUtil {
@@ -88,5 +97,8 @@ public class ElasticsearchUtil {
         }
         return client;
     }
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 }

@@ -7,16 +7,21 @@ import com.visualpathit.account.service.UserService;
 import com.visualpathit.account.utils.MemcachedUtils;
 import com.visualpathit.account.validator.UserValidator;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 
 import java.util.List;
 import java.util.UUID;
 
 =======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,6 +31,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class UserController {
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -35,7 +41,10 @@ import java.util.UUID;
 @Controller
 public class UserController {
 
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     @Autowired
     private UserService userService;
 
@@ -44,6 +53,8 @@ public class UserController {
 
     @Autowired
     private UserValidator userValidator;
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     
     @Autowired
@@ -80,6 +91,7 @@ public class UserController {
         }
         if (logout != null){
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
     @Autowired
     private ProducerService producerService;
@@ -114,11 +126,16 @@ public class UserController {
             model.addAttribute("error", "Your username and password is invalid.");
         }
         if (logout != null) {
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
             model.addAttribute("message", "You have been logged out successfully.");
         }
         return "login";
     }
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
     /** {@inheritDoc} */
     @RequestMapping(value = { "/", "/welcome"}, method = RequestMethod.GET)
@@ -225,6 +242,7 @@ public class UserController {
 
     
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
     @PostMapping("/login")
     public String loginPost(@ModelAttribute("user") User user, Model model) {
@@ -322,5 +340,8 @@ public class UserController {
     private static String generateString() {
         return "uuid = " + UUID.randomUUID().toString();
     }
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 }

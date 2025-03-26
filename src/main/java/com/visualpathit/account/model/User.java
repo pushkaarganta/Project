@@ -2,10 +2,14 @@ package com.visualpathit.account.model;
 
 
 <<<<<<< HEAD
+import jakarta.persistence.*;
+=======
+<<<<<<< HEAD
 import javax.persistence.*;
 =======
 import jakarta.persistence.*;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 import java.io.Serializable;
 import java.util.Set;
@@ -49,10 +53,14 @@ public class User implements Serializable {
     /** {@inheritDoc}} !*/
     @Id
 <<<<<<< HEAD
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+=======
+<<<<<<< HEAD
     @GeneratedValue(strategy = GenerationType.AUTO)
 =======
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     /** {@link User#id} */
     public Long getId() {
         return id;

@@ -43,9 +43,13 @@ public class UserServiceImpl implements UserService {
     @Override
 	public User findById(long id){
 <<<<<<< HEAD
+    	return userRepository.findById(id);
+=======
+<<<<<<< HEAD
     	return userRepository.findOne(id);
 =======
     	return userRepository.findById(id);
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     }
 }

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <!DOCTYPE logback>
 <configuration>
 
@@ -24,6 +26,7 @@
 
 </configuration>
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 <!DOCTYPE configuration>
 <configuration>
 
@@ -47,4 +50,7 @@
 	</root>
 
 </configuration>
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a

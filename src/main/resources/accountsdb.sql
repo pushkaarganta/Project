@@ -27,10 +27,14 @@ CREATE TABLE `role` (
   `name` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
 <<<<<<< HEAD
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+=======
+<<<<<<< HEAD
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 =======
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -41,9 +45,13 @@ LOCK TABLES `role` WRITE;
 /*!40000 ALTER TABLE `role` DISABLE KEYS */;
 INSERT INTO `role` VALUES (1,'ROLE_USER');
 <<<<<<< HEAD
+INSERT INTO `role` VALUES (2,'ROLE_ADMIN');
+=======
+<<<<<<< HEAD
 =======
 INSERT INTO `role` VALUES (2,'ROLE_ADMIN');
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -53,12 +61,17 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `user`;
 <<<<<<< HEAD
+/*!40101 SET @saved_cs_client     = @@CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_CLIENT = utf8 */;
+=======
+<<<<<<< HEAD
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 =======
 /*!40101 SET @saved_cs_client     = @@CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_CLIENT = utf8 */;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 CREATE TABLE `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) DEFAULT NULL,
@@ -67,10 +80,14 @@ CREATE TABLE `user` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 <<<<<<< HEAD
+/*!40101 SET CHARACTER_SET_CLIENT = @saved_cs_client */;
+=======
+<<<<<<< HEAD
 /*!40101 SET character_set_client = @saved_cs_client */;
 =======
 /*!40101 SET CHARACTER_SET_CLIENT = @saved_cs_client */;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 --
 -- Dumping data for table `user`
@@ -88,12 +105,17 @@ UNLOCK TABLES;
 
 DROP TABLE IF EXISTS `user_role`;
 <<<<<<< HEAD
+/*!40101 SET @saved_cs_client     = @@CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_CLIENT = utf8 */;
+=======
+<<<<<<< HEAD
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 =======
 /*!40101 SET @saved_cs_client     = @@CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_CLIENT = utf8 */;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 CREATE TABLE `user_role` (
   `user_id` int(11) NOT NULL,
   `role_id` int(11) NOT NULL,
@@ -103,10 +125,14 @@ CREATE TABLE `user_role` (
   CONSTRAINT `fk_user_role_userid` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 <<<<<<< HEAD
+/*!40101 SET CHARACTER_SET_CLIENT = @saved_cs_client */;
+=======
+<<<<<<< HEAD
 /*!40101 SET character_set_client = @saved_cs_client */;
 =======
 /*!40101 SET CHARACTER_SET_CLIENT = @saved_cs_client */;
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 --
 -- Dumping data for table `user_role`
@@ -115,11 +141,16 @@ CREATE TABLE `user_role` (
 LOCK TABLES `user_role` WRITE;
 /*!40000 ALTER TABLE `user_role` DISABLE KEYS */;
 <<<<<<< HEAD
+INSERT INTO `user_role` VALUES (4,1); -- ROLE_USER
+INSERT INTO `user_role` VALUES (4,2); -- ROLE_ADMIN
+=======
+<<<<<<< HEAD
 INSERT INTO `user_role` VALUES (4,1);
 =======
 INSERT INTO `user_role` VALUES (4,1); -- ROLE_USER
 INSERT INTO `user_role` VALUES (4,2); -- ROLE_ADMIN
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 /*!40000 ALTER TABLE `user_role` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

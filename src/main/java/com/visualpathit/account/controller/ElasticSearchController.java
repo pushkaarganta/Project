@@ -3,37 +3,52 @@ package com.visualpathit.account.controller;
 import java.io.IOException;
 import java.util.List;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import org.elasticsearch.action.admin.indices.create.CreateIndexRequestBuilder;
 import org.elasticsearch.action.delete.DeleteResponse;
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.delete.DeleteResponse;
 import org.elasticsearch.action.get.GetRequest;
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.update.UpdateRequest;
 import org.elasticsearch.action.update.UpdateResponse;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 import org.elasticsearch.common.xcontent.XContentBuilder;
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.elasticsearch.client.RequestOptions;
 import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+<<<<<<< HEAD
+
+=======
 <<<<<<< HEAD
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -42,10 +57,13 @@ import com.google.gson.Gson;
 =======
 
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import com.visualpathit.account.model.User;
 import com.visualpathit.account.service.UserService;
 import com.visualpathit.account.utils.ElasticsearchUtil;
 
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
@@ -156,6 +174,7 @@ public class ElasticSearchController {
 		
     }*/
 =======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 @Controller
 public class ElasticSearchController {
 
@@ -232,5 +251,8 @@ public class ElasticSearchController {
 
         return "elasticeSearchRes";
     }
+<<<<<<< HEAD
+=======
 >>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 }
