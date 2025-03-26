@@ -1,6 +1,16 @@
 package com.visualpathit.account.model;
 
+<<<<<<< HEAD
+import jakarta.persistence.*;
+
+=======
+<<<<<<< HEAD
 import javax.persistence.*;
+=======
+import jakarta.persistence.*;
+
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 import java.util.Set;
 /**{@author imrant} !*/
 @Entity
@@ -14,7 +24,15 @@ public class Role {
     private Set<User> users;
     /** {@inheritDoc}} !*/
     @Id
+<<<<<<< HEAD
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+=======
+<<<<<<< HEAD
     @GeneratedValue(strategy = GenerationType.AUTO)
+=======
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     /**
      * {@link Role#id}
      !*/
