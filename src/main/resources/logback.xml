@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <!DOCTYPE logback>
 <configuration>
 
@@ -22,3 +25,32 @@
     </root>
 
 </configuration>
+=======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
+<!DOCTYPE configuration>
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>%date{HH:mm:ss.SSS} [%thread] %-5level %logger{15}#%line %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<!-- Turn off all logging for specific packages -->
+	<logger name="com.visualpathit.account" level="OFF" />
+	<logger name="org.springframework" level="OFF" />
+	<logger name="org.hibernate" level="OFF" />
+	<logger name="org.hibernate.SQL" level="OFF" />
+	<logger name="org.hibernate.type" level="OFF" />
+
+	<!-- Root logging configuration -->
+	<root>
+		<level value="OFF" />
+		<appender-ref ref="STDOUT" />
+	</root>
+
+</configuration>
+<<<<<<< HEAD
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a

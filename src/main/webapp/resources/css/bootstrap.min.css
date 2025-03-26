@@ -1843,7 +1843,15 @@ pre code {
 
 @media (min-width: 1200px) {
     .container {
+<<<<<<< HEAD
+        width: 100%;
+=======
+<<<<<<< HEAD
         width: 1170px
+=======
+        width: 100%;
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     }
 }
 
@@ -1852,10 +1860,24 @@ pre code {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
 }
 
 .row {
     margin-right: -15px;
+=======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
+
+}
+
+.row {
+    margin-right: 50px;
+<<<<<<< HEAD
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     margin-left: -15px
 }
 
@@ -4492,6 +4514,14 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 }
 
 @media (min-width: 768px) {
@@ -4603,7 +4633,15 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 }
 
 .navbar-brand {
+<<<<<<< HEAD
+    float: right;
+=======
+<<<<<<< HEAD
     float: left;
+=======
+    float: right;
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     height: 50px;
     padding: 15px 15px;
     font-size: 18px;
@@ -4620,7 +4658,20 @@ select[multiple].input-group-sm > .form-control, select[multiple].input-group-sm
 
 @media (min-width: 768px) {
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
         margin-left: -15px
+=======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+<<<<<<< HEAD
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     }
 }
 
