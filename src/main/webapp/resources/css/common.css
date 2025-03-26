@@ -1,3 +1,54 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+body {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+   
+}
+form {
+    border: 3px solid #204a87;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 70px;
+    
+ }
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.btn-custom,.btn-custom:hover, .btn-custom:focus, .btn-custom:active {
+  border-radius: 0;
+  color: #ffffff;
+  background-color: #ef2929;
+  border-color: #ef2929;
+  
+}
+.btn-custom-LOGIN {
+  border-radius: 0;
+  color: #ffffff;
+  height:3em;
+  background-color: #26C6DA;
+  border-color: #ef2929;
+  
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+=======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 body {
@@ -100,11 +151,23 @@ body {
     color: #333333;
     line-height: 1.2;
     text-align: center;
+<<<<<<< HEAD
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 }
 
 .form-signin .form-control {
     position: relative;
     height: auto;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
     box-sizing: border-box;
     padding: 10px;
     font-size: 16px;
@@ -124,6 +187,14 @@ body {
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+.has-error {
+    color: red
+}
+=======
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 .has-error .form-control {
     border-color: red;
 }
@@ -131,3 +202,7 @@ body {
 .has-error .help-block {
     color: red;
 }
+<<<<<<< HEAD
+=======
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a

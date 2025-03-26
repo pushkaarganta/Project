@@ -43,7 +43,15 @@
 		<div class="align-center">
  			<input type="hidden"  name="${_csrf.parameterName}"   value="${_csrf.token}"/>
  			<input type="hidden"  name="userName"   value="${pageContext.request.userPrincipal.name}"/> 
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+			<input type="submit" class="btn btn-info" value="Upload">
+=======
+
+>>>>>>> 79694ff (Initial commit for terraform-project)
+>>>>>>> a53f6c76848e2a3a1cc8af878ad2e32e5c2ff85a
 		</div>
 	</form>	
   </div>
