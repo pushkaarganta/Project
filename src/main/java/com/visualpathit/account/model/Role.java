@@ -1,6 +1,11 @@
 package com.visualpathit.account.model;
 
+<<<<<<< HEAD
 import javax.persistence.*;
+=======
+import jakarta.persistence.*;
+
+>>>>>>> 79694ff (Initial commit for terraform-project)
 import java.util.Set;
 /**{@author imrant} !*/
 @Entity
@@ -14,7 +19,11 @@ public class Role {
     private Set<User> users;
     /** {@inheritDoc}} !*/
     @Id
+<<<<<<< HEAD
     @GeneratedValue(strategy = GenerationType.AUTO)
+=======
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+>>>>>>> 79694ff (Initial commit for terraform-project)
     /**
      * {@link Role#id}
      !*/

@@ -1,6 +1,11 @@
 # Prerequisites
+<<<<<<< HEAD
 #######
 - JDK 17 
+=======
+#
+- JDK 11 
+>>>>>>> 79694ff (Initial commit for terraform-project)
 - Maven 3 
 - MySQL 8
 
